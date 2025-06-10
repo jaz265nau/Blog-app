@@ -1,0 +1,28 @@
+/* This file contains the styles for the blog application */
+/*Apply base styles to the body and headings*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color:grey;
+}
+
+h1 {
+    color: whitesmoke;
+}
+/* From input and textarea styles */
+from input, from textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+/* Button styles */
+.post {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin: 1rem;
+}
+
+button {
+    margin-top: 0.5rem;
+}

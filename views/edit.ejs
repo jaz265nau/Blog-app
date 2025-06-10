@@ -1,0 +1,10 @@
+<%- include("partials/header") %>
+<h1>Edit Post</h1>
+<!--Form pre-filled with current post data-->
+<form action="/edit/<%= post.id %>" method="POST">
+  <input type="text" name="title" value="<%= post.title %>" required>
+  <textarea name="content" required><%= post.content %></textarea>
+  <button type="submit">Update</button>
+</form>
+<%- include("partials/footer") %>
+<!-- This code is for the edit page of a blog application. It includes a header, a form to edit a post's title and content, and a footer. The form submits to the server to update the post with the given ID. -->
